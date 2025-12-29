@@ -14,6 +14,8 @@ Together, Labs 1–3 are not tests of intelligence—they are training in judgme
 
 What Is Expected in Labs 1–3
 
+You are expected to read before you ask a question.... 
+
 You are expected to feel uncertain at times.
 These labs are not designed to give you immediate confirmation that you are “doing it right.” Real systems rarely do. Feeling unsure does not mean you lack ability—it means you are learning to operate without constant feedback. Part of the work is learning how to pause, observe, and reason instead of rushing.
 
