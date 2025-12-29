@@ -1,0 +1,19 @@
+Bedrock-powered “auto-IR” pipeline for advanced students who can actually build and demo.
+
+The pattern below is what real orgs do: alarm → evidence collection → LLM summarization → report artifact → notify.
+This will be given to you
+
+1) Incident report template (structured, consistent, gradeable)
+2) Integration framework (AWS architecture + flow)
+3) Terraform skeleton resources (Chewbacca naming)
+4) Lambda handler skeleton (Python) that:
+    pulls alarm context
+    runs CloudWatch Logs Insights queries (WAF + app)
+    pulls known-good values from SSM + Secrets
+    calls Bedrock Runtime InvokeModel 
+    writes report to S3
+    notifies via SNS
+Prompt pack (so reports are high signal, not vibes)
+
+1) Auto-generated Incident Report Template (Markdown)
+You must output exact headings (easy to implement).
